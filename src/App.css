@@ -71,7 +71,6 @@
   right: -30px;
   cursor: pointer;
   font-size: 16px;
-  color: var(--text);
   transition: var(--transition);
 }
 
