@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+ height: 100%;
   gap: 3rem;
 }
 
@@ -27,6 +27,7 @@
 
 .card {
   width: 500px;
+  height: 100%;
   background-color: rgba(115, 74, 238, 0.1);
   box-shadow: 0 0 0 3px rgba(115, 74, 238, 0.4);
   border-radius: 10px;
@@ -147,7 +148,30 @@
 /* media query */
 
 @media screen  and (max-width:480px){
-  .card{
-    width: 300px;
+  .container{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
   }
+  .card{
+    width: 320px;
+    height: 100%;
+  }
+.quotes{
+  font-size: 14px;
+}
+.card-warper{
+  height: 100%;
+}
+.btn-box{
+  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+ padding: 0;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.footer{
+  margin-bottom: 20px;
+}
 }
