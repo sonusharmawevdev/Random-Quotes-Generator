@@ -1,0 +1,54 @@
+@media (prefers-color-scheme: dark) {
+  body{
+  background-color: #050505;
+  color: #eee;
+  }
+  *>a{
+    color: #eee;
+  }
+ }
+ 
+ @media (prefers-color-scheme: light) {
+  body{
+   background-color: #eee;
+   color:#151515;
+  }
+  *>a{
+    color: #151515;
+  }
+ }
+ 
+
+:root {
+  --primary-color:#fa7e59;
+  --button:#805bee;
+  --text:#eee;
+  --transition:all .800ms ease  ;
+}
+
+*>*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition:var(--transition);
+}
+*>::selection{
+  -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+html{
+  font-size: 16px;
+  font-weight: normal;
+  position: relative;
+}
+
+
+body{
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+}
+
